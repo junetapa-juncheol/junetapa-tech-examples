@@ -1,0 +1,27 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node
+node_modules/
+
+# outputs
+output/
+*.log
+
+# generated images (example images that belong to a post go in docs/ folders)
+*.png
+!**/docs/*.png
+
+# editor / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
